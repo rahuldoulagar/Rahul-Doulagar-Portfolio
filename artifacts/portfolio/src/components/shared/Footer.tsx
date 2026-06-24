@@ -13,10 +13,10 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 group mb-6">
               <div className="w-8 h-8 rounded bg-primary flex items-center justify-center text-white font-bold font-mono tracking-tighter">
-                AM
+                RD
               </div>
               <span className="font-semibold tracking-tight text-white text-lg">
-                Alex Morgan
+                Rahul Doulagar
               </span>
             </Link>
             <p className="text-sm text-zinc-400 max-w-xs">
@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-zinc-400">
               <li><Link href="#contact" className="hover:text-primary transition-colors">Contact Me</Link></li>
               <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
-              <li><a href="mailto:hello@alexmorgan.design" className="hover:text-primary transition-colors">hello@alexmorgan.design</a></li>
+              <li><a href="mailto:hello@rahuldoulagar.design" className="hover:text-primary transition-colors">hello@rahuldoulagar.design</a></li>
             </ul>
             <div className="flex gap-4 mt-6">
               <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
@@ -67,9 +67,9 @@ export function Footer() {
         </div>
         
         <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-zinc-500">
-          <p>© {year} Alex Morgan. All rights reserved.</p>
+          <p>© {year} Rahul Doulagar. All rights reserved.</p>
           <p className="flex items-center gap-1">
-            Designed & built with <span className="text-red-500">❤</span> by Alex Morgan
+            Designed & built with <span className="text-red-500">❤</span> by Rahul Doulagar
           </p>
         </div>
       </div>

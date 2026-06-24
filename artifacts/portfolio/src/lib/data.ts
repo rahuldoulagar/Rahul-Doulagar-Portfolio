@@ -193,7 +193,7 @@ export const blogPosts: BlogPost[] = [
     date: "Oct 15, 2023",
     readTime: "5 min read",
     category: "Industry",
-    author: "Alex Morgan",
+    author: "Rahul Doulagar",
     gradient: "from-blue-500 to-indigo-600"
   },
   {
@@ -204,7 +204,7 @@ export const blogPosts: BlogPost[] = [
     date: "Sep 28, 2023",
     readTime: "8 min read",
     category: "Systems",
-    author: "Alex Morgan",
+    author: "Rahul Doulagar",
     gradient: "from-purple-500 to-fuchsia-600"
   },
   {
@@ -215,7 +215,7 @@ export const blogPosts: BlogPost[] = [
     date: "Aug 12, 2023",
     readTime: "4 min read",
     category: "UX Research",
-    author: "Alex Morgan",
+    author: "Rahul Doulagar",
     gradient: "from-slate-700 to-black"
   }
 ];

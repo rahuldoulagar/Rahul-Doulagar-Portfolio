@@ -78,8 +78,8 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <a href="mailto:hello@alexmorgan.design" className="font-medium hover:text-primary transition-colors">
-                    hello@alexmorgan.design
+                  <a href="mailto:hello@rahuldoulagar.design" className="font-medium hover:text-primary transition-colors">
+                    hello@rahuldoulagar.design
                   </a>
                 </div>
               </div>

@@ -104,7 +104,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                 <h3 className="font-bold text-lg mb-4">About the Author</h3>
                 <div className="flex items-center gap-4 mb-4">
                   <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold font-mono">
-                    AM
+                    RD
                   </div>
                   <div>
                     <p className="font-medium">Rahul Doulagar</p>

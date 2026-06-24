@@ -90,7 +90,7 @@ export function AboutSection() {
               {/* Inner core */}
               <div className="absolute inset-16 bg-gradient-to-tr from-primary to-purple-500 rounded-full blur-md opacity-50" />
               <div className="absolute inset-16 bg-card border border-border rounded-full flex items-center justify-center backdrop-blur-sm z-20">
-                <span className="font-bold text-2xl tracking-tighter">AM</span>
+                <span className="font-bold text-2xl tracking-tighter">RD</span>
               </div>
             </div>
           </motion.div>

@@ -3,17 +3,17 @@ import { blogPosts } from "@/lib/data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const blogs = blogPosts.map((post) => ({
-    url: `https://alexmorgan.design/blog/${post.slug}`,
+    url: `https://rahuldoulagar.design/blog/${post.slug}`,
     lastModified: new Date(),
   }));
 
   return [
     {
-      url: "https://alexmorgan.design",
+      url: "https://rahuldoulagar.design",
       lastModified: new Date(),
     },
     {
-      url: "https://alexmorgan.design/blog",
+      url: "https://rahuldoulagar.design/blog",
       lastModified: new Date(),
     },
     ...blogs,

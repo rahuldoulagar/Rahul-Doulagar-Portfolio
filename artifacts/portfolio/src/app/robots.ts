@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://alexmorgan.design/sitemap.xml",
+    sitemap: "https://rahuldoulagar.design/sitemap.xml",
   };
 }

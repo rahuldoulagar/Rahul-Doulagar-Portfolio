@@ -107,7 +107,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                     AM
                   </div>
                   <div>
-                    <p className="font-medium">Alex Morgan</p>
+                    <p className="font-medium">Rahul Doulagar</p>
                     <p className="text-sm text-muted-foreground">UI/UX Designer</p>
                   </div>
                 </div>

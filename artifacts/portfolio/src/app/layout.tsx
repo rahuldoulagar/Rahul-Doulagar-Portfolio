@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Morgan — UI/UX Designer",
+  title: "Rahul Doulagar — UI/UX Designer",
   description:
     "Premium UI/UX Designer portfolio. Crafting beautiful digital experiences that blend form and function.",
 };

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function HeroSection() {
-  const titleText = "Alex Morgan";
+  const titleText = "Rahul Doulagar";
   
   return (
     <section className="relative min-h-[100dvh] flex flex-col items-center justify-center overflow-hidden pt-20">
@@ -77,7 +77,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.5 }}
           className="text-xl sm:text-2xl md:text-3xl text-muted-foreground font-medium mb-6 max-w-2xl text-gradient"
         >
-          UI/UX Designer & Product Thinker
+          UI/UX Designer & Motion Graphic Designer
         </motion.h2>
 
         <motion.p

@@ -50,10 +50,10 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
           <div className="w-8 h-8 rounded bg-primary flex items-center justify-center text-primary-foreground font-bold font-mono tracking-tighter group-hover:scale-105 transition-transform">
-            AM
+            RD
           </div>
           <span className="font-semibold tracking-tight hidden sm:inline-block">
-            Alex Morgan
+            Rahul Doulagar
           </span>
         </Link>
 

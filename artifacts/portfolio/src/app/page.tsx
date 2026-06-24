@@ -7,7 +7,7 @@ import { PageTransition } from "@/components/shared/PageTransition";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { SkillsSection } from "@/components/sections/SkillsSection";
-import { ProjectsSection } from "@/components/sections/ProjectsSection";
+import { WorkGallerySection } from "@/components/sections/WorkGallerySection";
 import { CaseStudySection } from "@/components/sections/CaseStudySection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
@@ -25,7 +25,7 @@ export default function Home() {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
-        <ProjectsSection />
+        <WorkGallerySection />
         <CaseStudySection />
         <TestimonialsSection />
         <ExperienceSection />

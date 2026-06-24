@@ -8,7 +8,6 @@ import { HeroSection } from "@/components/sections/HeroSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { SkillsSection } from "@/components/sections/SkillsSection";
 import { WorkGallerySection } from "@/components/sections/WorkGallerySection";
-import { CaseStudySection } from "@/components/sections/CaseStudySection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { ServicesSection } from "@/components/sections/ServicesSection";
@@ -26,7 +25,6 @@ export default function Home() {
         <AboutSection />
         <SkillsSection />
         <WorkGallerySection />
-        <CaseStudySection />
         <TestimonialsSection />
         <ExperienceSection />
         <ServicesSection />

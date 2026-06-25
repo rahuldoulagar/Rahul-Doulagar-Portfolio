@@ -53,12 +53,12 @@ export const projects: Project[] = [
 
 export const skills: Skill[] = [
   { name: "Figma", category: "Design Tools", level: 95 },
-  { name: "Adobe Illustrator", category: "Design Tools", level: 88 },
-  { name: "Photoshop", category: "Design Tools", level: 82 },
-  { name: "Adobe XD", category: "Design Tools", level: 78 },
-  { name: "After Effects", category: "Motion & Video", level: 85 },
-  { name: "Premiere Pro", category: "Motion & Video", level: 75 },
-  { name: "Motion Graphics", category: "Motion & Video", level: 88 },
+  { name: "Adobe Illustrator", category: "Design Tools", level: 93 },
+  { name: "Photoshop", category: "Design Tools", level: 92 },
+  { name: "CorelDRAW", category: "Design Tools", level: 88 },
+  { name: "After Effects", category: "Motion & Video", level: 91 },
+  { name: "Premiere Pro", category: "Motion & Video", level: 90 },
+  { name: "Motion Graphics", category: "Motion & Video", level: 92 },
   { name: "Wireframing", category: "UX & Interaction", level: 92 },
   { name: "Prototyping", category: "UX & Interaction", level: 88 },
   { name: "Interaction Design", category: "UX & Interaction", level: 85 },

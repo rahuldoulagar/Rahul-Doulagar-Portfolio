@@ -56,7 +56,7 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/rahul-doulagar-2766a2196/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Linkedin className="w-4 h-4" />
               </a>
               <a href="https://www.behance.net/gallery/248518759/Presentation" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">

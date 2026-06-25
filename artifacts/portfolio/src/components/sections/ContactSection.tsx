@@ -109,7 +109,7 @@ export function ContactSection() {
               <a href="#" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">
+              <a href="https://www.linkedin.com/in/rahul-doulagar-2766a2196/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">
                 <Linkedin className="w-4 h-4" />
               </a>
               <a href="https://www.behance.net/gallery/248518759/Presentation" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">

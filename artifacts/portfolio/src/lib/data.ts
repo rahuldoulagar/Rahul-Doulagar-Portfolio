@@ -100,20 +100,6 @@ export const experience: Experience[] = [
     type: "work",
     description: "Kickstarted my design career creating visual assets, brand collaterals, social media graphics, and marketing materials for diverse clients."
   },
-  {
-    id: "cert-1",
-    role: "UX Design Certificate",
-    company: "Google",
-    period: "2019",
-    type: "certification"
-  },
-  {
-    id: "cert-2",
-    role: "UX Certification",
-    company: "Nielsen Norman Group",
-    period: "2021",
-    type: "certification"
-  }
 ];
 
 export const services: Service[] = [

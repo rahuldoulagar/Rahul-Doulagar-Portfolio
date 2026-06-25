@@ -72,7 +72,7 @@ export const experience: Experience[] = [
     id: "exp-4",
     role: "Assistant Manager – UI/UX & Motion Graphic Designer",
     company: "eYantra Ventures",
-    period: "Dec 2025 – Present",
+    period: "Jun 2026 – Present",
     type: "work",
     description: "Expanded scope into UI/UX and motion design — crafting user interfaces, interaction flows, and animated brand content for clients across multiple industries."
   },
@@ -80,7 +80,7 @@ export const experience: Experience[] = [
     id: "exp-3",
     role: "Assistant Manager – Graphic Designer",
     company: "eYantra Ventures",
-    period: "Jun 2025 – Dec 2025",
+    period: "Jun 2025 – Jun 2026",
     type: "work",
     description: "Stepped into a leadership role overseeing design team deliverables, managing client communications, and maintaining quality standards across all projects."
   },

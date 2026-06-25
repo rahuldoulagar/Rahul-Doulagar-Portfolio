@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Twitter, Linkedin, Dribbble } from "lucide-react";
+import { Github, Twitter, Linkedin } from "lucide-react";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -59,8 +59,8 @@ export function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                <Dribbble className="w-4 h-4" />
+              <a href="https://www.behance.net/gallery/248518759/Presentation" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
+                <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor"><path d="M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 1.2.577 1.878 1.368 2.208.53.208 1.086.208 1.617 0 .695-.298 1.14-.857 1.338-1.559l3.433.38zM16.007 13h3.949c-.072-1.11-.578-1.722-1.86-1.722-1.112 0-1.898.598-2.089 1.722zm-6.74-2.5c.688-.385 1.155-1.065 1.155-2.002 0-2.1-1.6-3-3.622-3H1v12h5.963c2.072 0 3.999-.951 3.999-3.2 0-1.195-.621-2.101-1.695-2.798zM4.071 7.5H6.1c.8 0 1.442.4 1.442 1.2 0 .9-.71 1.3-1.5 1.3H4.07V7.5zm2.3 7H4.07v-2.7H6.4c1.1 0 1.7.5 1.7 1.35 0 .9-.63 1.35-1.73 1.35z"/></svg>
               </a>
             </div>
           </div>

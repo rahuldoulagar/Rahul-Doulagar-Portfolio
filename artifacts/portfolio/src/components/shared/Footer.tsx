@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Github, Twitter, Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -53,9 +53,6 @@ export function Footer() {
               <li><a href="mailto:frankrahul297@gmail.com" className="hover:text-primary transition-colors">frankrahul297@gmail.com</a></li>
             </ul>
             <div className="flex gap-4 mt-6">
-              <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                <Twitter className="w-4 h-4" />
-              </a>
               <a href="https://www.linkedin.com/in/rahul-doulagar-2766a2196/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
                 <Linkedin className="w-4 h-4" />
               </a>

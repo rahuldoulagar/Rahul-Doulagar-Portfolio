@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { toast } from "sonner";
-import { Mail, Linkedin, Twitter, Send, Loader2 } from "lucide-react";
+import { Mail, Linkedin, Send, Loader2 } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -106,9 +106,6 @@ export function ContactSection() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">
-                <Twitter className="w-4 h-4" />
-              </a>
               <a href="https://www.linkedin.com/in/rahul-doulagar-2766a2196/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border bg-card flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all hover:-translate-y-1">
                 <Linkedin className="w-4 h-4" />
               </a>

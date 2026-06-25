@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Rahul Doulagar — UI/UX Designer",
+  title: "Rahul Doulagar — UI/UX & Motion Graphic Designer",
   description:
-    "Premium UI/UX Designer portfolio. Crafting beautiful digital experiences that blend form and function.",
+    "Portfolio of Rahul Doulagar — UI/UX Designer and Motion Graphic Designer at eYantra Ventures. Crafting intuitive interfaces and dynamic motion content that elevate brands.",
 };
 
 export default function RootLayout({

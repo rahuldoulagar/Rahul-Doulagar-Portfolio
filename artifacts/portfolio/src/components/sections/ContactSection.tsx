@@ -68,7 +68,7 @@ export function ContactSection() {
               Let's Create Something Remarkable
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-md">
-              Whether you have a specific project in mind or just want to chat about design, I'd love to hear from you.
+              Whether it's a UI/UX project, a brand animation, or a creative campaign — I'd love to bring your vision to life.
             </p>
 
             <div className="space-y-6 mb-12">

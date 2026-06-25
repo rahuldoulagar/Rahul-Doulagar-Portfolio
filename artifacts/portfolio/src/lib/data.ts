@@ -53,18 +53,16 @@ export const projects: Project[] = [
 
 export const skills: Skill[] = [
   { name: "Figma", category: "Design Tools", level: 95 },
-  { name: "Adobe XD", category: "Design Tools", level: 85 },
-  { name: "Sketch", category: "Design Tools", level: 80 },
-  { name: "Photoshop", category: "Design Tools", level: 75 },
-  { name: "Illustrator", category: "Design Tools", level: 75 },
-  { name: "User Research", category: "UX Process", level: 90 },
-  { name: "Wireframing", category: "UX Process", level: 95 },
-  { name: "Prototyping", category: "UX Process", level: 90 },
-  { name: "Usability Testing", category: "UX Process", level: 85 },
-  { name: "Design Systems", category: "Systems", level: 95 },
-  { name: "Interaction Design", category: "Systems", level: 90 },
-  { name: "Motion Design", category: "Systems", level: 80 },
-  { name: "Accessibility", category: "Systems", level: 85 }
+  { name: "Adobe Illustrator", category: "Design Tools", level: 88 },
+  { name: "Photoshop", category: "Design Tools", level: 82 },
+  { name: "Adobe XD", category: "Design Tools", level: 78 },
+  { name: "After Effects", category: "Motion & Video", level: 85 },
+  { name: "Premiere Pro", category: "Motion & Video", level: 75 },
+  { name: "Motion Graphics", category: "Motion & Video", level: 88 },
+  { name: "Wireframing", category: "UX & Interaction", level: 92 },
+  { name: "Prototyping", category: "UX & Interaction", level: 88 },
+  { name: "Interaction Design", category: "UX & Interaction", level: 85 },
+  { name: "User Research", category: "UX & Interaction", level: 78 }
 ];
 
 export const experience: Experience[] = [
@@ -105,33 +103,33 @@ export const experience: Experience[] = [
 export const services: Service[] = [
   {
     id: "srv-1",
-    title: "UI Design",
-    description: "Visual interfaces that delight users and elevate your brand.",
-    deliverables: ["High-fidelity mockups", "Interactive prototypes", "Asset export"]
+    title: "UI/UX Design",
+    description: "Intuitive interfaces crafted from user research to pixel-perfect delivery.",
+    deliverables: ["High-fidelity mockups", "Interactive prototypes", "User flows & wireframes"]
   },
   {
     id: "srv-2",
-    title: "UX Design",
-    description: "User-centered research and flows to solve real problems.",
-    deliverables: ["User journey maps", "Wireframes", "Usability testing"]
+    title: "Motion Graphics",
+    description: "Animated content that brings your brand to life across every screen.",
+    deliverables: ["Logo animations", "Social media reels", "Brand motion identity"]
   },
   {
     id: "srv-3",
-    title: "Product Design",
-    description: "End-to-end product thinking from concept to launch.",
-    deliverables: ["Product strategy", "Feature definition", "Cross-functional collaboration"]
+    title: "Graphic Design",
+    description: "Visual storytelling through brand collaterals, print, and digital assets.",
+    deliverables: ["Brand identity", "Marketing collateral", "Social media design"]
   },
   {
     id: "srv-4",
-    title: "Design Systems",
-    description: "Scalable component libraries for consistent experiences.",
-    deliverables: ["Component library", "Design tokens", "Usage guidelines"]
+    title: "Social Media Design",
+    description: "Scroll-stopping visuals designed for engagement, reach, and brand recall.",
+    deliverables: ["Post & story templates", "Campaign creatives", "Reel thumbnails"]
   },
   {
     id: "srv-5",
-    title: "User Research",
-    description: "Data-driven user insights to inform product decisions.",
-    deliverables: ["User interviews", "Surveys", "Persona development"]
+    title: "Presentation Design",
+    description: "Compelling decks that communicate ideas with clarity and visual impact.",
+    deliverables: ["Pitch decks", "Corporate presentations", "Report layouts"]
   }
 ];
 

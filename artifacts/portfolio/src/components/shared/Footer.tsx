@@ -20,8 +20,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="text-sm text-zinc-400 max-w-xs">
-              Designing digital products that feel inevitable. Crafting interfaces 
-              where form and function exist in perfect harmony.
+              Designing interfaces and crafting motion — where every pixel and every frame tells a purposeful story.
             </p>
           </div>
           

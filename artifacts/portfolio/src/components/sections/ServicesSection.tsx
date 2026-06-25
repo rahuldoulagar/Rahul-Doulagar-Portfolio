@@ -3,15 +3,15 @@
 import { motion } from "framer-motion";
 import { services } from "@/lib/data";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowRight, Layout, Search, Layers, Box, Compass } from "lucide-react";
+import { ArrowRight, Layout, Layers, Image, Play, Presentation } from "lucide-react";
 import Link from "next/link";
 
 const iconMap: Record<string, React.ReactNode> = {
-  "UI Design": <Layout className="w-8 h-8 text-primary" />,
-  "UX Design": <Search className="w-8 h-8 text-primary" />,
-  "Product Design": <Compass className="w-8 h-8 text-primary" />,
-  "Design Systems": <Box className="w-8 h-8 text-primary" />,
-  "User Research": <Layers className="w-8 h-8 text-primary" />
+  "UI/UX Design": <Layout className="w-8 h-8 text-primary" />,
+  "Motion Graphics": <Play className="w-8 h-8 text-primary" />,
+  "Graphic Design": <Image className="w-8 h-8 text-primary" />,
+  "Social Media Design": <Layers className="w-8 h-8 text-primary" />,
+  "Presentation Design": <Presentation className="w-8 h-8 text-primary" />
 };
 
 export function ServicesSection() {

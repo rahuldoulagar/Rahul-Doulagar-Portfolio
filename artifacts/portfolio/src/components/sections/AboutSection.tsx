@@ -46,7 +46,7 @@ export function AboutSection() {
             <div className="relative pl-8 border-l-4 border-primary/30 my-10">
               <span className="absolute -top-4 -left-3 text-6xl text-primary/20 font-serif leading-none">"</span>
               <p className="text-xl md:text-2xl font-medium italic text-foreground leading-snug">
-                Good design is obvious. Great design is transparent. The best interfaces feel like an extension of the user's intent.
+                Great design is felt, not noticed. Whether it's a seamless interface or a frame of animation — if it moves people, it's working.
               </p>
             </div>
 

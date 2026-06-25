@@ -72,7 +72,7 @@ export const experience: Experience[] = [
     company: "eYantra Ventures",
     period: "Jun 2026 – Present",
     type: "work",
-    description: "Expanded scope into UI/UX and motion design — crafting user interfaces, interaction flows, and animated brand content for clients across multiple industries."
+    description: "Expanded expertise into UI/UX and motion graphics — designing user interfaces, brand animations, and dynamic marketing content to amplify campaign performance."
   },
   {
     id: "exp-3",
@@ -80,7 +80,7 @@ export const experience: Experience[] = [
     company: "eYantra Ventures",
     period: "Jun 2025 – Jun 2026",
     type: "work",
-    description: "Stepped into a leadership role overseeing design team deliverables, managing client communications, and maintaining quality standards across all projects."
+    description: "Led the design workflow within the digital marketing team — overseeing creative strategy, client briefs, and quality control across all campaign design deliverables."
   },
   {
     id: "exp-2",
@@ -88,7 +88,7 @@ export const experience: Experience[] = [
     company: "eYantra Ventures",
     period: "Jun 2024 – Jun 2025",
     type: "work",
-    description: "Promoted for consistent delivery — led graphic projects end-to-end, mentored junior designers, and elevated brand storytelling across campaigns."
+    description: "Took ownership of end-to-end graphic design projects — developing campaign creatives, digital ads, social media visuals, and mentoring junior designers."
   },
   {
     id: "exp-1",
@@ -96,7 +96,7 @@ export const experience: Experience[] = [
     company: "eYantra Ventures",
     period: "Jun 2023 – Jun 2024",
     type: "work",
-    description: "Kickstarted my design career creating visual assets, brand collaterals, social media graphics, and marketing materials for diverse clients."
+    description: "Started my career in the digital marketing team, creating social media graphics, campaign visuals, brand collaterals, and marketing materials for diverse clients."
   },
 ];
 

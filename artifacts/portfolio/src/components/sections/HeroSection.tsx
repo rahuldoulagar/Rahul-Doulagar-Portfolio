@@ -86,7 +86,7 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 0.6 }}
           className="text-base sm:text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed"
         >
-          I craft intuitive user interfaces and bring brands to life through motion — where great design feels effortless and every frame tells a story.
+          I design for digital marketing — crafting scroll-stopping social creatives, motion graphics, and intuitive UI/UX that help brands capture attention and convert audiences.
         </motion.p>
 
         <motion.div

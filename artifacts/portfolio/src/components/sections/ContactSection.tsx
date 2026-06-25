@@ -68,7 +68,7 @@ export function ContactSection() {
               Let's Create Something Remarkable
             </h2>
             <p className="text-lg text-muted-foreground mb-12 max-w-md">
-              Whether it's a UI/UX project, a brand animation, or a creative campaign — I'd love to bring your vision to life.
+              Whether it's a digital marketing campaign, a brand animation, UI/UX design, or social media creatives — I'd love to bring your vision to life.
             </p>
 
             <div className="space-y-6 mb-12">

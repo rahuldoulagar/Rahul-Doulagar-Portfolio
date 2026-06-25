@@ -36,10 +36,10 @@ export function AboutSection() {
           >
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-                I'm a UI/UX and Motion Graphic Designer at eYantra Ventures, passionate about crafting visual experiences that are both beautiful and purposeful.
+                I'm a UI/UX and Motion Graphic Designer embedded in the digital marketing team at eYantra Ventures — where design meets strategy to drive real brand results.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Since joining eYantra Ventures in 2023 as a Jr. Graphic Designer, I've grown steadily through four roles — driven by curiosity, craft, and a genuine love for design. Today I work across graphic design, UI/UX, and motion graphics, helping brands communicate clearly and look great doing it.
+                Since 2023, every project I've touched has lived in the world of digital marketing — social media campaigns, brand creatives, motion content, UI/UX, and marketing collateral. I've grown from creating individual assets to leading the visual direction of campaigns, helping brands capture attention and convert audiences.
               </p>
             </div>
 

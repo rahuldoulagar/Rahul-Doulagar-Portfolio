@@ -78,19 +78,29 @@ export function ContactSection() {
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Email</div>
-                  <a href="mailto:hello@rahuldoulagar.design" className="font-medium hover:text-primary transition-colors">
-                    hello@rahuldoulagar.design
+                  <a href="mailto:frankrahul297@gmail.com" className="font-medium hover:text-primary transition-colors">
+                    frankrahul297@gmail.com
                   </a>
                 </div>
               </div>
               
               <div className="flex items-center gap-4 text-foreground/80">
                 <div className="w-12 h-12 rounded-full bg-card border flex items-center justify-center">
+                  <svg viewBox="0 0 24 24" className="w-5 h-5 text-primary" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.63 3.4 2 2 0 0 1 3.6 1.22h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.78a16 16 0 0 0 6 6l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7a2 2 0 0 1 1.72 2.02z"></path></svg>
+                </div>
+                <div>
+                  <div className="text-sm text-muted-foreground">Phone</div>
+                  <a href="tel:+917097483082" className="font-medium hover:text-primary transition-colors">+91 70974 83082</a>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-4 text-foreground/80">
+                <div className="w-12 h-12 rounded-full bg-card border flex items-center justify-center">
                   <svg viewBox="0 0 24 24" className="w-5 h-5 text-primary" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">Location</div>
-                  <span className="font-medium">San Francisco, CA (Remote ok)</span>
+                  <span className="font-medium">Hyderabad, India (Remote ok)</span>
                 </div>
               </div>
             </div>

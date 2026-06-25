@@ -50,7 +50,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm text-zinc-400">
               <li><Link href="#contact" className="hover:text-primary transition-colors">Contact Me</Link></li>
               <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
-              <li><a href="mailto:hello@rahuldoulagar.design" className="hover:text-primary transition-colors">hello@rahuldoulagar.design</a></li>
+              <li><a href="mailto:frankrahul297@gmail.com" className="hover:text-primary transition-colors">frankrahul297@gmail.com</a></li>
             </ul>
             <div className="flex gap-4 mt-6">
               <a href="#" className="w-10 h-10 rounded-full bg-zinc-900 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">

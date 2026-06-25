@@ -5,10 +5,10 @@ import { Badge } from "@/components/ui/badge";
 
 export function AboutSection() {
   const stats = [
-    { label: "Years Experience", value: "6+" },
-    { label: "Projects Completed", value: "50+" },
-    { label: "Happy Clients", value: "30+" },
-    { label: "Design Awards", value: "15" },
+    { label: "Years Experience", value: "3+" },
+    { label: "Projects Completed", value: "30+" },
+    { label: "Brands Served", value: "15+" },
+    { label: "Promotions", value: "3" },
   ];
 
   return (
@@ -36,10 +36,10 @@ export function AboutSection() {
           >
             <div className="prose prose-lg dark:prose-invert">
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-6">
-                I'm a multidisciplinary designer based in San Francisco, specializing in user interface and experience design for complex digital products.
+                I'm a UI/UX and Motion Graphic Designer at eYantra Ventures, passionate about crafting visual experiences that are both beautiful and purposeful.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                Over the past 6 years, I've partnered with early-stage startups and enterprise companies to build intuitive, scalable, and aesthetically pleasing software. My approach blends rigorous user research with meticulous visual craft.
+                Since joining eYantra Ventures in 2023 as a Jr. Graphic Designer, I've grown steadily through four roles — driven by curiosity, craft, and a genuine love for design. Today I work across graphic design, UI/UX, and motion graphics, helping brands communicate clearly and look great doing it.
               </p>
             </div>
 

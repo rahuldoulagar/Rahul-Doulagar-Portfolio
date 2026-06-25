@@ -69,32 +69,36 @@ export const skills: Skill[] = [
 
 export const experience: Experience[] = [
   {
-    id: "exp-1",
-    role: "Senior UI/UX Designer",
-    company: "Stripe",
-    period: "2022–Present",
-    type: "work"
-  },
-  {
-    id: "exp-2",
-    role: "Product Designer",
-    company: "Linear",
-    period: "2020–2022",
-    type: "work"
+    id: "exp-4",
+    role: "Assistant Manager – UI/UX & Motion Graphic Designer",
+    company: "eYantra Ventures",
+    period: "Dec 2025 – Present",
+    type: "work",
+    description: "Expanded scope into UI/UX and motion design — crafting user interfaces, interaction flows, and animated brand content for clients across multiple industries."
   },
   {
     id: "exp-3",
-    role: "UI Designer",
-    company: "Figma",
-    period: "2018–2020",
-    type: "work"
+    role: "Assistant Manager – Graphic Designer",
+    company: "eYantra Ventures",
+    period: "Jun 2025 – Dec 2025",
+    type: "work",
+    description: "Stepped into a leadership role overseeing design team deliverables, managing client communications, and maintaining quality standards across all projects."
   },
   {
-    id: "exp-4",
-    role: "Junior Designer",
-    company: "Freelance",
-    period: "2017–2018",
-    type: "freelance"
+    id: "exp-2",
+    role: "Executive – Graphic Designer",
+    company: "eYantra Ventures",
+    period: "Jun 2024 – Jun 2025",
+    type: "work",
+    description: "Promoted for consistent delivery — led graphic projects end-to-end, mentored junior designers, and elevated brand storytelling across campaigns."
+  },
+  {
+    id: "exp-1",
+    role: "Jr. Graphic Designer",
+    company: "eYantra Ventures",
+    period: "Jun 2023 – Jun 2024",
+    type: "work",
+    description: "Kickstarted my design career creating visual assets, brand collaterals, social media graphics, and marketing materials for diverse clients."
   },
   {
     id: "cert-1",

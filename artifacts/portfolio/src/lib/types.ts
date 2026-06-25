@@ -19,6 +19,7 @@ export interface Experience {
   company: string;
   period: string;
   type: "work" | "freelance" | "certification";
+  description?: string;
 }
 
 export interface Service {

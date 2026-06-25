@@ -52,9 +52,9 @@ export function ExperienceSection() {
                         <h3 className="text-xl font-bold">{item.role}</h3>
                         <p className="text-lg text-primary">{item.company}</p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          {item.type === "certification" 
+                          {item.description ?? (item.type === "certification"
                             ? "Completed professional certification to formalize expertise."
-                            : "Led design initiatives, collaborated with engineering, and delivered high-impact user experiences."}
+                            : "Led design initiatives and delivered high-impact visual experiences.")}
                         </p>
                       </div>
                     </div>

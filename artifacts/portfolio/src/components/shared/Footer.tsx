@@ -48,7 +48,6 @@ export function Footer() {
             <h3 className="text-white font-medium mb-6">Connect</h3>
             <ul className="space-y-4 text-sm text-zinc-400">
               <li><Link href="#contact" className="hover:text-primary transition-colors">Contact Me</Link></li>
-              <li><Link href="/blog" className="hover:text-primary transition-colors">Blog</Link></li>
               <li><a href="mailto:frankrahul297@gmail.com" className="hover:text-primary transition-colors">frankrahul297@gmail.com</a></li>
             </ul>
             <div className="flex gap-4 mt-6">

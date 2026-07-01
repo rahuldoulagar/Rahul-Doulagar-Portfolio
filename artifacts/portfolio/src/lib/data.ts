@@ -119,12 +119,7 @@ export const services: Service[] = [
     description: "Visual storytelling through brand collaterals, print, and digital assets.",
     deliverables: ["Brand identity", "Marketing collateral", "Social media design"]
   },
-  {
-    id: "srv-4",
-    title: "Social Media Design",
-    description: "Scroll-stopping visuals designed for engagement, reach, and brand recall.",
-    deliverables: ["Post & story templates", "Campaign creatives", "Reel thumbnails"]
-  },
+  
   {
     id: "srv-5",
     title: "Presentation Design",

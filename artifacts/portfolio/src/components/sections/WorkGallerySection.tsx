@@ -18,7 +18,7 @@ const portfolioWorks: GalleryItem[] = [
     title: "Corporate Branding",
     category: "Branding",
     type: "image",
-    src: "/works/project1.jpg",
+    src: "/works/campaign1.jpg",
   },
   {
     id: 2,

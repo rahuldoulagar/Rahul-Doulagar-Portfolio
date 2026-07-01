@@ -28,7 +28,7 @@ export function Footer() {
             <h3 className="text-white font-medium mb-6">Work</h3>
             <ul className="space-y-4 text-sm text-zinc-400">
               <li><Link href="#work" className="hover:text-primary transition-colors">Featured Projects</Link></li>
-              <li><Link href="#case-study" className="hover:text-primary transition-colors">Case Studies</Link></li>
+              
               <li><Link href="#experience" className="hover:text-primary transition-colors">Experience</Link></li>
               <li><Link href="/resume.pdf" className="hover:text-primary transition-colors">Resume</Link></li>
             </ul>
@@ -37,10 +37,10 @@ export function Footer() {
           <div>
             <h3 className="text-white font-medium mb-6">Services</h3>
             <ul className="space-y-4 text-sm text-zinc-400">
-              <li><Link href="#services" className="hover:text-primary transition-colors">UI Design</Link></li>
-              <li><Link href="#services" className="hover:text-primary transition-colors">UX Research</Link></li>
-              <li><Link href="#services" className="hover:text-primary transition-colors">Design Systems</Link></li>
-              <li><Link href="#services" className="hover:text-primary transition-colors">Prototyping</Link></li>
+              <li><Link href="#services" className="hover:text-primary transition-colors">UI/UX Design</Link></li>
+              <li><Link href="#services" className="hover:text-primary transition-colors">Motion Graphics</Link></li>
+              <li><Link href="#services" className="hover:text-primary transition-colors">Graphic Design</Link></li>
+              <li><Link href="#services" className="hover:text-primary transition-colors">Presentation Design</Link></li>
             </ul>
           </div>
           

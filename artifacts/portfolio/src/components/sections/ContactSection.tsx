@@ -149,7 +149,7 @@ export function ContactSection() {
                 )}
               </div>
               
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 <div className="space-y-2">
                   <Label htmlFor="projectType">Project Type</Label>
                   <select 
@@ -158,27 +158,14 @@ export function ContactSection() {
                     {...register("projectType")}
                   >
                     <option value="">Select...</option>
-                    <option value="ui">UI Design</option>
-                    <option value="ux">UX Research</option>
-                    <option value="full">End-to-end Product</option>
-                    <option value="system">Design System</option>
+                    <option value="ui">UI/UX Designs</option>
+                    <option value="ux">Website Designs</option>
+                    <option value="full">Social Media Creatives</option>
+                    <option value="system">Brand Pitch Decks</option>
                   </select>
                 </div>
                 
-                <div className="space-y-2">
-                  <Label htmlFor="budget">Budget</Label>
-                  <select 
-                    id="budget"
-                    className="flex h-9 w-full rounded-md border border-input bg-background/50 px-3 py-1 text-base shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring md:text-sm"
-                    {...register("budget")}
-                  >
-                    <option value="">Select...</option>
-                    <option value="small">&lt; $5k</option>
-                    <option value="medium">$5k - $15k</option>
-                    <option value="large">$15k - $30k</option>
-                    <option value="xl">&gt; $30k</option>
-                  </select>
-                </div>
+                
               </div>
 
               <div className="space-y-2">

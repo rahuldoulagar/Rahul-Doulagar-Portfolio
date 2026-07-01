@@ -2,7 +2,6 @@
   "name": "rahul-doulagar-portfolio",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

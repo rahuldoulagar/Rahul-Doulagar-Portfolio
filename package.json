@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "workspace",
   "version": "0.0.0",
   "license": "MIT",
@@ -13,7 +12,6 @@
   "devDependencies": {
     "prettier": "^3.8.3",
     "typescript": "~5.9.3"
-=======
   "name": "rahul-doulagar-portfolio",
   "version": "1.0.0",
   "private": true,
@@ -59,6 +57,5 @@
     "@types/react-dom": "^19.0.1",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2"
->>>>>>> a9cba64ab21a5e30717f93815cbe8505c401a6ec
   }
 }

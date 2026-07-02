@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
@@ -13,4 +14,31 @@
       "path": "./lib/api-zod"
     }
   ]
+=======
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+>>>>>>> a9cba64ab21a5e30717f93815cbe8505c401a6ec
 }

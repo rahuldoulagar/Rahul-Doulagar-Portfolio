@@ -1,0 +1,4 @@
+zser-agent: *
+Allow: /
+
+Sitemap: https://alexmorgan.design/sitemap.xml

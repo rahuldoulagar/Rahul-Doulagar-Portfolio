@@ -32,7 +32,7 @@ const portfolioWorks: GalleryItem[] = [
     title: "Web Dashboard",
     category: "Web",
     type: "image",
-    src: "/works/project3.jpg",
+    src: "/works/Web Dashboard.jpg",
   },
   {
     id: 4,
@@ -71,7 +71,11 @@ function MediaCard({
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.5, delay: index * 0.07, ease: [0.25, 0.46, 0.45, 0.94] }}
+      transition={{
+        duration: 0.5,
+        delay: index * 0.07,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
       className="group relative cursor-pointer overflow-hidden rounded-2xl bg-muted"
       onClick={() => onClick(item)}
     >
@@ -89,7 +93,8 @@ function MediaCard({
             onError={(e) => {
               const target = e.currentTarget;
               target.style.display = "none";
-              const placeholder = target.nextElementSibling as HTMLElement | null;
+              const placeholder =
+                target.nextElementSibling as HTMLElement | null;
               if (placeholder) placeholder.style.display = "flex";
             }}
           />
@@ -104,7 +109,8 @@ function MediaCard({
             onError={(e) => {
               const target = e.currentTarget;
               target.style.display = "none";
-              const placeholder = target.nextElementSibling as HTMLElement | null;
+              const placeholder =
+                target.nextElementSibling as HTMLElement | null;
               if (placeholder) placeholder.style.display = "flex";
             }}
           />
@@ -135,9 +141,13 @@ function MediaCard({
       )}
 
       <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-        <p className="text-white font-semibold text-base leading-tight">{item.title}</p>
+        <p className="text-white font-semibold text-base leading-tight">
+          {item.title}
+        </p>
         {item.category && (
-          <p className="text-white/60 text-xs mt-1 uppercase tracking-widest">{item.category}</p>
+          <p className="text-white/60 text-xs mt-1 uppercase tracking-widest">
+            {item.category}
+          </p>
         )}
       </div>
 
@@ -218,7 +228,9 @@ function LightboxModal({
             {item.category && (
               <>
                 <span className="text-white/30">·</span>
-                <p className="text-white/50 text-sm uppercase tracking-widest">{item.category}</p>
+                <p className="text-white/50 text-sm uppercase tracking-widest">
+                  {item.category}
+                </p>
               </>
             )}
           </div>
@@ -241,7 +253,9 @@ export function WorkGallerySection() {
           transition={{ duration: 0.5 }}
           className="mb-14"
         >
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">My Work</h2>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+            My Work
+          </h2>
           <div className="h-1 w-16 bg-primary rounded-full" />
         </motion.div>
 

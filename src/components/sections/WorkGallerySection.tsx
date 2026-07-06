@@ -29,10 +29,10 @@ const portfolioWorks: GalleryItem[] = [
   },
   {
     id: 3,
-    title: "Web Dashboard",
+    title: "Dashboard",
     category: "Web",
     type: "image",
-    src: "/works/project3.jpg",
+    src: "/works/web.jpg",
   },
   {
     id: 4,

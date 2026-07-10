@@ -10,50 +10,54 @@ type GalleryItem = {
   category?: string;
   type: "image" | "video";
   src: string;
+  thumbnail?: string;
 };
 
 const portfolioWorks: GalleryItem[] = [
   {
     id: 1,
     title: "Corporate Branding",
-    category: "Branding",
+    category: "",
     type: "image",
-    src: "/works/campaign1.jpg",
+    src: "/works/merch.jpg",
   },
   {
     id: 2,
     title: "Mobile App UI",
-    category: "Mobile",
+    category: "",
     type: "video",
-    src: "/works/project2.mp4",
+    src: "/works/comp 2.mp4",
+    thumbnail: "/works/thumb.jpg",
   },
   {
     id: 3,
-    title: "Dashboard",
-    category: "Web",
+    title: "Web Dashboard",
+    category: "",
     type: "image",
     src: "/works/web.jpg",
   },
   {
     id: 4,
     title: "Product Design",
-    category: "Product",
+    category: "",
     type: "image",
-    src: "/works/project4.jpg",
+    src: "/works/product design.jpg",
+    thumbnail: "/works/productdesignthumb.jpg",
   },
   {
     id: 5,
     title: "Brand Identity",
-    category: "Branding",
+    category: "",
     type: "video",
-    src: "/works/project5.mp4",
+    src: "/works/brand identity.mp4",
+    thumbnail: "/works/brand identity thumb.jpg",
   },
   {
     id: 6,
-    title: "E-commerce Platform",
-    category: "Web",
+    title: "Brand Experience",
+    category: "",
     type: "image",
-    src: "/works/project6.jpg",
+    src: "/works/brandexperience.jpg",
   },
 ];
 
@@ -71,7 +75,11 @@ function MediaCard({
       initial={{ opacity: 0, y: 24 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-60px" }}
-      transition={{ duration: 0.5, delay: index * 0.07, ease: [0.25, 0.46, 0.45, 0.94] }}
+      transition={{
+        duration: 0.5,
+        delay: index * 0.07,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
       className="group relative cursor-pointer overflow-hidden rounded-2xl bg-muted"
       onClick={() => onClick(item)}
     >
@@ -80,35 +88,19 @@ function MediaCard({
         transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
         className="relative w-full h-full"
       >
-        {item.type === "image" ? (
-          <img
-            src={item.src}
-            alt={item.title}
-            loading="lazy"
-            className="w-full h-full object-cover aspect-[4/3] block"
-            onError={(e) => {
-              const target = e.currentTarget;
-              target.style.display = "none";
-              const placeholder = target.nextElementSibling as HTMLElement | null;
-              if (placeholder) placeholder.style.display = "flex";
-            }}
-          />
-        ) : (
-          <video
-            src={item.src}
-            muted
-            loop
-            playsInline
-            preload="metadata"
-            className="w-full h-full object-cover aspect-[4/3] block"
-            onError={(e) => {
-              const target = e.currentTarget;
-              target.style.display = "none";
-              const placeholder = target.nextElementSibling as HTMLElement | null;
-              if (placeholder) placeholder.style.display = "flex";
-            }}
-          />
-        )}
+        <img
+          src={item.thumbnail || item.src}
+          alt={item.title}
+          loading="lazy"
+          className="w-full h-full object-cover aspect-[4/3] block"
+          onError={(e) => {
+            const target = e.currentTarget;
+            target.style.display = "none";
+            const placeholder =
+              target.nextElementSibling as HTMLElement | null;
+            if (placeholder) placeholder.style.display = "flex";
+          }}
+        />
 
         <div
           className="aspect-[4/3] w-full hidden items-center justify-center"
@@ -135,9 +127,13 @@ function MediaCard({
       )}
 
       <div className="absolute bottom-0 left-0 right-0 p-5 translate-y-2 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
-        <p className="text-white font-semibold text-base leading-tight">{item.title}</p>
+        <p className="text-white font-semibold text-base leading-tight">
+          {item.title}
+        </p>
         {item.category && (
-          <p className="text-white/60 text-xs mt-1 uppercase tracking-widest">{item.category}</p>
+          <p className="text-white/60 text-xs mt-1 uppercase tracking-widest">
+            {item.category}
+          </p>
         )}
       </div>
 
@@ -218,7 +214,9 @@ function LightboxModal({
             {item.category && (
               <>
                 <span className="text-white/30">·</span>
-                <p className="text-white/50 text-sm uppercase tracking-widest">{item.category}</p>
+                <p className="text-white/50 text-sm uppercase tracking-widest">
+                  {item.category}
+                </p>
               </>
             )}
           </div>
@@ -241,7 +239,9 @@ export function WorkGallerySection() {
           transition={{ duration: 0.5 }}
           className="mb-14"
         >
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">My Work</h2>
+          <h2 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
+            My Work
+          </h2>
           <div className="h-1 w-16 bg-primary rounded-full" />
         </motion.div>
 
